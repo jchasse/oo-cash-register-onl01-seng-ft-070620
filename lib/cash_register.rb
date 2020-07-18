@@ -8,7 +8,7 @@ class CashRegister
     @discount = discount
     @total = 0
     binding.pry
-    if discount = 0
+    if @discount == 0
       "There is no discount to apply."
     end
 
