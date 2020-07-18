@@ -11,7 +11,8 @@ class CashRegister
 
   def add_item(title, price)
     binding.pry
+    total += price
   end
-    
+
 
 end
