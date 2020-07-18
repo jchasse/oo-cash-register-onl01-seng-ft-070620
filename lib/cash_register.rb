@@ -15,6 +15,6 @@ class CashRegister
 
   def apply_discount
     binding.pry
-    @total * (1-@discount) = @total
-
+    discount_amount = @total * @discount
+    @total -= discount_amount
 end
