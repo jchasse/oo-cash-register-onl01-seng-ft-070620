@@ -17,6 +17,7 @@ binding.pry
       @item_list << title
     else
       @item_list << title
+    end
   end
 
   def apply_discount
