@@ -25,9 +25,9 @@ class CashRegister
     end
   end
 
-  def items
-    @item_list
-  end
+  # def items
+  #   @item_list
+  # end
 
 
 end
