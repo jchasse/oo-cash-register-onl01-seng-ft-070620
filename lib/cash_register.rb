@@ -10,12 +10,12 @@ class CashRegister
   end
 
   def add_item(title, price, quantity = 1)
-    @total += price * quantity
+    total += price * quantity
   end
 
   def apply_discount
     discount_amount = @total * @discount/100
     @total -= discount_amount
-    print "After the discount, the total comes to #{@total}."
+    puts "After the discount, the total comes to #{@total}."
   end
 end
