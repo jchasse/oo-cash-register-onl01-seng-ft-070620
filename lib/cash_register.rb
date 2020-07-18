@@ -2,7 +2,9 @@ require 'pry'
 
 class CashRegister
 
-  attr_accessor :total, :discount
+  item_list = []
+
+  attr_accessor :total, :discount, :item_list
 
   def initialize(discount = 0)
     @discount = discount
@@ -27,4 +29,11 @@ class CashRegister
       "There is no discount to apply."
     end
   end
+
+  def items
+
+
+  end
+
+
 end
