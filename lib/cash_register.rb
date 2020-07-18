@@ -6,7 +6,12 @@ class CashRegister
 
   def initialize(discount = 0)
     @discount = discount
-    @total = 0  #sets an instance variable @total on initialization to zero
+    @total = 0
+    if discount = 0
+      ""
+
+    end
+
   end
 
   def add_item(title, price, quantity = 1)
