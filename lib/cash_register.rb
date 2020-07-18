@@ -17,6 +17,6 @@ class CashRegister
     # binding.pry
     discount_amount = @total * @discount/100
     @total -= discount_amount
-    print "After the discount, the total comes to #{total}."
+    prints "After the discount, the total comes to #{total}."
   end
 end
