@@ -26,7 +26,7 @@ class CashRegister
   end
 
   def items
-binding.pry
+# binding.pry
     @item_list
   end
 
