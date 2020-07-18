@@ -7,9 +7,8 @@ class CashRegister
   def initialize(discount = 0)
     @discount = discount
     @total = 0
-    if discount = 0
-      ""
-
+    if @discount = 0
+      "There is no discount to apply."
     end
 
   end
