@@ -9,11 +9,6 @@ class CashRegister
   def initialize(discount = 0)
     @discount = discount
     @total = 0
-    # binding.pry
-    # if @discount == 0
-    #   "There is no discount to apply."
-    # end
-
   end
 
   def add_item(title, price, quantity = 1)
