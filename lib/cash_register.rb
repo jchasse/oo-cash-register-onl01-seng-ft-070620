@@ -9,6 +9,9 @@ class CashRegister
     @total = 0  #sets an instance variable @total on initialization to zero
   end
 
-
+  def add_item(title, price)
+    binding.pry
+  end
+    
 
 end
