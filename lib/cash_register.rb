@@ -10,15 +10,15 @@ class CashRegister
     @discount = discount
     @total = 0
     # binding.pry
-    if @discount == 0
-      "There is no discount to apply."
+    # if @discount == 0
+    #   "There is no discount to apply."
     end
 
   end
 
   def add_item(title, price, quantity = 1)
     @total += price * quantity
-    # @item_list << title
+    @item_list << title
   end
 
   def apply_discount
@@ -32,7 +32,6 @@ class CashRegister
   end
 
   def items
-    binding.pry
     @item_list
   end
 
