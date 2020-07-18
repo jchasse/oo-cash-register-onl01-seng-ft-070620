@@ -17,4 +17,5 @@ class CashRegister
     binding.pry
     discount_amount = @total * @discount
     @total -= discount_amount
+  end
 end
