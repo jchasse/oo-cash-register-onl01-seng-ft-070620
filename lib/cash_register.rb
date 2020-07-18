@@ -9,7 +9,7 @@ class CashRegister
     @total = 0  #sets an instance variable @total on initialization to zero
   end
 
-  def add_item(title, price)
+  def add_item(title, price, quantity = 0)
     @total += price
   end
 
