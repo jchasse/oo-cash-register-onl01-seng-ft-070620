@@ -16,7 +16,7 @@ binding.pry
     if quantity == 1
       @item_list << title
     else
-      quantity.times {@item_list << title.quantity.times
+      quantity.times {@item_list << title}
     end
   end
 
